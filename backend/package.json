@@ -1,0 +1,19 @@
+{
+  "name": "simplestorage",
+  "version": "1.0.0",
+  "description": "simple contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o build/ contracts/SimpleStorage.sol"
+  },
+  "author": "Farayibi Matthew",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "solc": "^0.8.17"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}

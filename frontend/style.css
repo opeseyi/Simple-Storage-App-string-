@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+
+body {
+  background-color: rgb(51, 36, 51);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 {
+  flex-basis: 90%;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: black;
+}
+
+header div {
+  flex-basis: 10%;
+}
+header button {
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  /* border: 2rem solid black; */
+}
+
+header button:active {
+  box-shadow: 2px 2px 5px rgb(196, 190, 190);
+}
+
+h2 {
+  text-align: center;
+  margin: 60px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+.inMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#show {
+  border-radius: 10px;
+  margin: 30px 0 0 350px;
+  width: 50%;
+  height: 100px;
+  font-size: 30px;
+}
+
+#store,
+#blaa {
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  /* border: 2rem solid black; */
+}
+
+#store:active,
+#blaa:active {
+  box-shadow: 2px 2px 5px rgb(196, 190, 190);
+}
+
+#read {
+  border-radius: 10px;
+  margin-left: 350px;
+  width: 50%;
+  height: 100px;
+  font-size: 30px;
+}
